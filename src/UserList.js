@@ -19,7 +19,7 @@ const UserList = ({users}) => {
         </thead>
     </Table>
    {users.map((user) => (
-       <div> 
+       <div key={user.id}> 
             <Table className='tablebody'>
                 <tbody>
                     <tr>
