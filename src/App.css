@@ -1,38 +1,34 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+th {
+  font-family: 'Rampart One', cursive;
+  color: white;  
+}
+tr {
+  display: flex;
+    
 }
 
-.App-link {
-  color: #61dafb;
+tr td {
+  justify-content: center;
+  align-items: center;
+  color:black;
+}
+h1 {
+  
+  font-family: 'Rampart One', cursive;
+  color: rgba(220, 24, 197, 0.771);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+img {
+  width: 3rem;
 }
